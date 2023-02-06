@@ -11,6 +11,7 @@
 $ docker run -it --rm --ipc=host --name=xin -p 8889:8888 -v /home/xin/:/source/Next-ViT/ -v /data/ssd/cv_data/:/source/data/ -w /source pytorch/pytorch:latest
 
 $ cd detection/
+
 $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 
 
