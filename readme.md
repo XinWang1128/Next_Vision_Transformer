@@ -3,10 +3,7 @@
 # Workflow of Next Vision Transformer
 
 
-#Hi, me.
-
-
-# I just built a new docker image "vit" in tum node 6
+#I just built a new docker image "vit" in tum node 6
 
 $docker build -f ViT.dockerfile -t vit .
 
