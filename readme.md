@@ -16,4 +16,8 @@ $ cd detection/
 $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 
 
+#change the data to my german data, but there is an error about the the nummer of class, so we should change coco.py
+
+
+
 
