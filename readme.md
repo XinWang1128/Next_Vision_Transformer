@@ -4,14 +4,17 @@
 
 # Ohsome2label(Data preparing)
 
-1.Check the ohsome2label API useful or not, use $ ohsome2label —help ,
-2.Change the save direction and some details of output:
+1. Check the ohsome2label API useful or not, use $ ohsome2label —help
+
+2. Change the save direction and some details of output:
   name: WWTP
   workspace: ./BW_WWTP
   project_time: 2020-05-18
   task: object detection
-3.Check the size of bboxes between output and the prepared one
-4.Use the input like:
+
+3. Check the size of bboxes between output and the prepared one
+
+4. Use the input like:
     - {'label': 'wastewater', 'key': 'landuse', 'value': 'basin'}
 
 
