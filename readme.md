@@ -48,7 +48,7 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 
 # To do
 1. check the training accrucy 
-2. save the model from training step
+2. save the model from training step(https://github.com/GIScience/ohsome2label/tree/master/walkthrough)
 3. make a prediction with our stuttgart test area
 4. get the results and visualization
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
