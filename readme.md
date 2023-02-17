@@ -48,11 +48,12 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 
 # To do
 1. check the training accrucy
-    hard to see, because it's not the detection accuracy of the WWTP class.
-    ![alt text](https://github.com/[xinwang1128]/[Next_Vision_Transformer]/blob/[main]/98d7b963-95c3-471b-be51-7d886cbcae4d.png?raw=true)
+#hard to see, because it's not the detection accuracy of the WWTP class.
+![result chat](https://github.com/XinWang1128/Next_Vision_Transformer/blob/master/98d7b963-95c3-471b-be51-7d886cbcae4d.png)
 
 
 2. save the model from training step(https://github.com/GIScience/ohsome2label/tree/master/walkthrough)
+
 3. make a prediction with our stuttgart test area
 4. get the results and visualization
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
