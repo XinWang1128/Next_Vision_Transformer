@@ -52,7 +52,11 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 #hard to see, because it's not the detection accuracy of the WWTP class.
 ![result chat](https://github.com/XinWang1128/Next_Vision_Transformer/blob/master/98d7b963-95c3-471b-be51-7d886cbcae4d.png)
 
-2. save the model from training step(https://github.com/GIScience/ohsome2label/tree/master/walkthrough)
+2. save the model and make a prediction
+
+
+
+save the model from training step(https://github.com/GIScience/ohsome2label/tree/master/walkthrough)
 #accroding to reading the "export_inference_graph.py"(https://github.com/tensorflow/models/blob/master/research/object_detection/export_inference_graph.py), the saving model function is based on TF. So the problems are if we could use the pytorch image to run the TF based functions.
 
 3. make a prediction with our stuttgart test area (if we should split it into train and test)
