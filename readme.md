@@ -54,6 +54,7 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 
 2. save the model and make a prediction
 
+*** figure it out, which size or type of input should we use
 
 
 save the model from training step(https://github.com/GIScience/ohsome2label/tree/master/walkthrough)
