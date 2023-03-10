@@ -65,6 +65,8 @@ save the model from training step(https://github.com/GIScience/ohsome2label/tree
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
 
 
+References:
+Next-ViT: https://github.com/bytedance/Next-ViT
 
 
 
