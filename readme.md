@@ -57,6 +57,7 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 $ PORT=29501 bash dist_test.sh configs/mask_rcnn_nextvit_small_1x.py ../checkpoints/mask_rcnn_1x_nextvit_small.pth 8 --eval bbox
 
 after change the classes of coco.py(from 80 classes to 2), we have made a valuation about our model, and it shows a very bad result. So we should take a look at the input data and the hyperparameters again.Or, run the training again. 
+![WhatsApp Image 2023-02-13 at 10 10 56](https://user-images.githubusercontent.com/87394529/224976140-014632d5-aed1-48d7-ba0e-9ca1c669921f.jpg)
 
 
 3. make a prediction with our stuttgart test area (if we should split it into train and test)
