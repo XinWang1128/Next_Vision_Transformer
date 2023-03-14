@@ -54,11 +54,10 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 
 2. save the model and make a prediction
 
-*** figure it out, which size or type of input should we use
+$ PORT=29501 bash dist_test.sh configs/mask_rcnn_nextvit_small_1x.py ../checkpoints/mask_rcnn_1x_nextvit_small.pth 8 --eval bbox
 
+after change the classes of coco.py(from 80 classes to 2), we have made a valuation about our model, and it shows a very bad result. So we should take a look at the input data and the hyperparameters again.Or, run the training again. 
 
-save the model from training step(https://github.com/GIScience/ohsome2label/tree/master/walkthrough)
-#accroding to reading the "export_inference_graph.py"(https://github.com/tensorflow/models/blob/master/research/object_detection/export_inference_graph.py), the saving model function is based on TF. So the problems are if we could use the pytorch image to run the TF based functions.
 
 3. make a prediction with our stuttgart test area (if we should split it into train and test)
 4. get the results and visualization
