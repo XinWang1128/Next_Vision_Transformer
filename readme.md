@@ -64,6 +64,8 @@ after change the classes of coco.py(from 80 classes to 2), we have made a valuat
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
 
 
+References:
+Next-ViT: https://github.com/bytedance/Next-ViT
 
 
 
