@@ -62,15 +62,20 @@ after change the classes of coco.py(from 80 classes to 2), we have made a valuat
 
 Because of the low prediction accuracy, we would like to check, if our the label of our train_annotation is right or not.(Atfer checking the bbox index, we find the x, y values perhaps wrong, we should use x value as our y, and use our y value as our x)
 The comparation between the two different bbox in our OSM data:
+
 With the old bbox:
+
 ![image](https://user-images.githubusercontent.com/87394529/225911088-cba04cf2-df8b-4951-aab1-a89b2ba2043c.png)
 
 
 With fixed the bbox:
+
 ![image](https://user-images.githubusercontent.com/87394529/225911257-824213a7-f09f-492f-915b-2adaed9e397d.png)
 
 But the mask of coco works pretty fine:
+
 The  bbox in COCO data:
+
 ![image](https://user-images.githubusercontent.com/87394529/225911454-4ca671af-22bb-452d-b231-5390d685ad27.png)
 
 
