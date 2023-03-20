@@ -49,8 +49,6 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 # To do
 
 1. check the training accrucy
-#hard to see, because it's not the detection accuracy of the WWTP class.
-![result chat](https://github.com/XinWang1128/Next_Vision_Transformer/blob/master/98d7b963-95c3-471b-be51-7d886cbcae4d.png)
 
 2. save the model and make a prediction
 
@@ -58,7 +56,8 @@ $ PORT=29501 bash dist_test.sh configs/mask_rcnn_nextvit_small_1x.py ../checkpoi
 
 after change the classes of coco.py(from 80 classes to 2), we have made a valuation about our model, and it shows a very bad result. So we should take a look at the input data and the hyperparameters again.Or, run the training again.
 ![WhatsApp Image 2023-02-13 at 10 10 56](https://user-images.githubusercontent.com/87394529/224976140-014632d5-aed1-48d7-ba0e-9ca1c669921f.jpg)(This figure is a result of the object detection based on coco dataset and mask_rcnn_nextvit_small_1x.py)
-
+![result chat](https://github.com/XinWang1128/Next_Vision_Transformer/blob/master/98d7b963-95c3-471b-be51-7d886cbcae4d.png)
+(Here is our object detection accuracy,but the accuracy is very low)
 
 Because of the low prediction accuracy, we would like to check, if our the label of our train_annotation is right or not.(Atfer checking the bbox index, we find the x, y values perhaps wrong, we should use x value as our y, and use our y value as our x)
 The comparation between the two different bbox in our OSM data:
