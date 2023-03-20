@@ -82,6 +82,13 @@ The  bbox in COCO data:
 
 ![image](https://user-images.githubusercontent.com/87394529/225911454-4ca671af-22bb-452d-b231-5390d685ad27.png)
 
+But if we use all the bbox to check the coco dataset, it works:
+
+![image](https://user-images.githubusercontent.com/87394529/226360667-cfdf3fa5-4322-4832-b96d-79ba4685ecfa.png)
+![image](https://user-images.githubusercontent.com/87394529/226360704-21094e88-bb5b-4114-aa92-7e75d9863bd1.png)
+![image](https://user-images.githubusercontent.com/87394529/226360839-be6aea10-2fc5-4975-bdfd-9f69f18bee33.png)
+![image](https://user-images.githubusercontent.com/87394529/226360795-14a05282-f18e-44e0-bf1d-e93d30c76285.png)
+
 
 3. make a prediction with our stuttgart test area (if we should split it into train and test)
 4. get the results and visualization
