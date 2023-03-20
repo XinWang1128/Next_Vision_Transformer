@@ -66,11 +66,15 @@ The comparation between the two different bbox in our OSM data:
 With the old bbox:
 
 ![image](https://user-images.githubusercontent.com/87394529/225911088-cba04cf2-df8b-4951-aab1-a89b2ba2043c.png)
+![image](https://user-images.githubusercontent.com/87394529/226318690-bf117352-47f1-4241-a593-5ba797a018bd.png)
 
 
 With fixed the bbox:
 
 ![image](https://user-images.githubusercontent.com/87394529/225911257-824213a7-f09f-492f-915b-2adaed9e397d.png)
+![image](https://user-images.githubusercontent.com/87394529/226318776-1467d2b0-3d3b-4c25-8703-fc247c2df955.png)
+
+
 
 But the mask of coco works pretty fine:
 
