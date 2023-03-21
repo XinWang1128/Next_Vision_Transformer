@@ -96,9 +96,7 @@ I. batch_size and LR are proportional
 
 If you have only one gpu,samples_per_gpu=8,batch_size=8,your new learning rate lr = 0.005
 
-If you have two gpu,samples_per_gpu=2,batch_size=4,then the new learning rate lr = 0.0025
 
-If you have 4 gpus,sample_per_gpu=4,batch_size=16,the learning rate remains the same,lr=0.01
 
 
 
