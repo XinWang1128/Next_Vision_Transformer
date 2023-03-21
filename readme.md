@@ -101,6 +101,13 @@ If you have only one gpu,samples_per_gpu=8,batch_size=8,your new learning rate l
 
 
 4. get the results and visualization
+
+The results like:
+
+![176876645028](https://user-images.githubusercontent.com/87394529/226669488-96bc8c2c-2583-4c09-818c-440956f6ba47.jpg)
+![176878445140](https://user-images.githubusercontent.com/87394529/226669522-8ef0327b-57d8-4ede-a86c-2317c00934ec.jpg)
+
+
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
 
 
