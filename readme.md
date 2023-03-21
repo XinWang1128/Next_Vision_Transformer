@@ -91,6 +91,7 @@ But if we use all the bbox to check the coco dataset, it works:
 
 3. make a prediction with our stuttgart test area (if we should split it into train and test)
 The index: 
+
 I. batch_size and LR are proportional
 
 If you have only one gpu,samples_per_gpu=8,batch_size=8,your new learning rate lr = 0.005
