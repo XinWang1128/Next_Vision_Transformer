@@ -90,6 +90,17 @@ But if we use all the bbox to check the coco dataset, it works:
 
 
 3. make a prediction with our stuttgart test area (if we should split it into train and test)
+The index: 
+I. batch_size and LR are proportional
+
+If you have only one gpu,samples_per_gpu=8,batch_size=8,your new learning rate lr = 0.005
+
+If you have two gpu,samples_per_gpu=2,batch_size=4,then the new learning rate lr = 0.0025
+
+If you have 4 gpus,sample_per_gpu=4,batch_size=16,the learning rate remains the same,lr=0.01
+
+
+
 4. get the results and visualization
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
 
