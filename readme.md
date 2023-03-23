@@ -108,6 +108,19 @@ The results like:
 ![176878445140](https://user-images.githubusercontent.com/87394529/226669522-8ef0327b-57d8-4ede-a86c-2317c00934ec.jpg)
 
 
+Validation data:
+
+![image](https://user-images.githubusercontent.com/87394529/227224906-6e94bfff-590e-45b0-be17-9d84c01a4f04.png)
+![image](https://user-images.githubusercontent.com/87394529/227225026-a4fdad82-d275-48f0-991a-3ce8488a94e8.png)
+![image](https://user-images.githubusercontent.com/87394529/227225093-25beff8e-816d-434c-b5c2-00f151a9a557.png)
+![image](https://user-images.githubusercontent.com/87394529/227225172-84f24f6a-263a-447c-8365-6ed98fcb8a47.png)
+![image](https://user-images.githubusercontent.com/87394529/227225253-7027dd27-2939-4091-90d0-d7315e70cb1b.png)
+![image](https://user-images.githubusercontent.com/87394529/227225388-49e70300-7e34-41f5-abdb-1ed0bc7317ec.png)
+![image](https://user-images.githubusercontent.com/87394529/227225439-0235b28a-ca28-4034-ba73-9908265c8c69.png)
+![image](https://user-images.githubusercontent.com/87394529/227225499-201a7b0a-47b5-4aef-b60d-daeffc4b2c40.png)
+![image](https://user-images.githubusercontent.com/87394529/227225555-3f1ec1c0-4ac0-4529-bdc7-2c8d028b5f87.png)
+
+
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
 
 
