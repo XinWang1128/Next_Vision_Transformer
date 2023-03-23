@@ -121,6 +121,7 @@ Validation data:
 ![image](https://user-images.githubusercontent.com/87394529/227225555-3f1ec1c0-4ac0-4529-bdc7-2c8d028b5f87.png)
 
 
+
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
 
 
