@@ -60,6 +60,7 @@ after change the classes of coco.py(from 80 classes to 2), we have made a valuat
 (Here is our object detection accuracy,but the accuracy is very low based on next_rcnn_small_1x.py)
 
 
+![image](https://user-images.githubusercontent.com/87394529/229114510-1e23590c-70d9-412f-8964-5b82d5a87e4b.png)
 
 (Here is our object detection accuracy with next_rcnn_large_3x.py, the accuracy becomes a liitle bit better but not that better at all. I guess, it is probably the bbox of the input are very small, and the ViT can only learn from the big bbox or objects)
 
@@ -108,8 +109,17 @@ If you have only one gpu,samples_per_gpu=8,batch_size=8,your new learning rate l
 
 The results like:
 
+The results from next_rcnn_small_1x.py:
+
 ![176876645028](https://user-images.githubusercontent.com/87394529/226669488-96bc8c2c-2583-4c09-818c-440956f6ba47.jpg)
 ![176878445140](https://user-images.githubusercontent.com/87394529/226669522-8ef0327b-57d8-4ede-a86c-2317c00934ec.jpg)
+
+The results from next_rcnn_small_3x.py:
+
+![image](https://user-images.githubusercontent.com/87394529/229114837-048a7b9d-923c-4ed8-9300-826c6a6923c3.png)
+![image](https://user-images.githubusercontent.com/87394529/229114896-b027ba20-5a7e-4bc0-8280-d8b640b4c404.png)
+![image](https://user-images.githubusercontent.com/87394529/229114949-469c299f-55f2-4c05-a765-80cfac426573.png)
+![image](https://user-images.githubusercontent.com/87394529/229115013-e7fc667c-1391-432b-b6a6-bc9ee3c2fc93.png)
 
 
 Validation data:
