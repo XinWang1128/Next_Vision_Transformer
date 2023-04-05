@@ -48,6 +48,9 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 #If there are a container worked since 1 week ago, and we could not attach it or kill it, try this command:
 $sudo systemctl restart docker.socket docker.service
 
+#Because the training data are so big and the bad connection between host and container. It is hard and inefficient progress to copy that direcktly from your host.SO if we wanna copy something from the host, should open a git bash here window at first, and use this code then:
+$scp -P 1592 -r train2017 xin@tum6.icaml.org:~/Next-ViT/Next-ViT/detection/data/
+
 # To do
 
 1. check the training accrucy
