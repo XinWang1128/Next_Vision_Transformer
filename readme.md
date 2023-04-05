@@ -45,6 +45,8 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_small_1x.py 1
 
 #change the data to my german data, but there is an error about the the nummer of class, so we should change coco.py(fixed by add "classes = ('wastewater', ),")
 
+#If there are a container worked since 1 week ago, and we could not attach it or kill it, try this command:
+$sudo systemctl restart docker.socket docker.service
 
 # To do
 
