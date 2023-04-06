@@ -66,6 +66,7 @@ after change the classes of coco.py(from 80 classes to 2), we have made a valuat
 
 
 ![image](https://user-images.githubusercontent.com/87394529/229114510-1e23590c-70d9-412f-8964-5b82d5a87e4b.png)
+![image](https://user-images.githubusercontent.com/87394529/230374103-606d6249-2d54-41b1-87b2-5e51bff13dcb.png)
 
 (Here is our object detection accuracy with next_rcnn_large_3x.py, the accuracy becomes a liitle bit better but not that better at all. I guess, it is probably the bbox of the input are very small, and the ViT can only learn from the big bbox or objects)
 
