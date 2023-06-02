@@ -113,33 +113,6 @@ If you have only one gpu,samples_per_gpu=8,batch_size=8,your new learning rate l
 
 4. get the results and visualization
 
-The results like:
-
-The results from next_rcnn_small_1x.py:
-
-![176876645028](https://user-images.githubusercontent.com/87394529/226669488-96bc8c2c-2583-4c09-818c-440956f6ba47.jpg)
-![176878445140](https://user-images.githubusercontent.com/87394529/226669522-8ef0327b-57d8-4ede-a86c-2317c00934ec.jpg)
-
-The results from next_rcnn_small_3x.py:
-
-![image](https://user-images.githubusercontent.com/87394529/229114837-048a7b9d-923c-4ed8-9300-826c6a6923c3.png)
-![image](https://user-images.githubusercontent.com/87394529/229114896-b027ba20-5a7e-4bc0-8280-d8b640b4c404.png)
-![image](https://user-images.githubusercontent.com/87394529/229114949-469c299f-55f2-4c05-a765-80cfac426573.png)
-![image](https://user-images.githubusercontent.com/87394529/229115013-e7fc667c-1391-432b-b6a6-bc9ee3c2fc93.png)
-
-
-Validation data:
-
-![image](https://user-images.githubusercontent.com/87394529/227224906-6e94bfff-590e-45b0-be17-9d84c01a4f04.png)
-![image](https://user-images.githubusercontent.com/87394529/227225026-a4fdad82-d275-48f0-991a-3ce8488a94e8.png)
-![image](https://user-images.githubusercontent.com/87394529/227225093-25beff8e-816d-434c-b5c2-00f151a9a557.png)
-![image](https://user-images.githubusercontent.com/87394529/227225172-84f24f6a-263a-447c-8365-6ed98fcb8a47.png)
-![image](https://user-images.githubusercontent.com/87394529/227225253-7027dd27-2939-4091-90d0-d7315e70cb1b.png)
-![image](https://user-images.githubusercontent.com/87394529/227225388-49e70300-7e34-41f5-abdb-1ed0bc7317ec.png)
-![image](https://user-images.githubusercontent.com/87394529/227225439-0235b28a-ca28-4034-ba73-9908265c8c69.png)
-![image](https://user-images.githubusercontent.com/87394529/227225499-201a7b0a-47b5-4aef-b60d-daeffc4b2c40.png)
-![image](https://user-images.githubusercontent.com/87394529/227225555-3f1ec1c0-4ac0-4529-bdc7-2c8d028b5f87.png)
-
 
 
 5. calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
