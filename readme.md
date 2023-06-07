@@ -61,21 +61,22 @@ There are a comparation between these training results:
 
 * small:
 
-
+![Picture](Matrix_S.PNG)
 
 * base:
 
-
+![Picture](Matrix_B.PNG)
 
 * large:
 
-
+![Picture](Matrix_L.PNG)
 
 4. save the model and make a prediction
 Perpare a test_samples folder, which have test images and negative images in this folder. And we need a txt file to get all a name list of all the images'names.
 Use the prediction.py to make a prediction with the above images.
 The comparations between the different sizes of Next-ViT
 
+![Picture](Comparation between different sizes of models.PNG)
 
 
 # To do
