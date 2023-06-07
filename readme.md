@@ -61,54 +61,15 @@ There are a comparation between these training results:
 
 * small:
 
-2023-06-02 10:22:09,543 - mmdet - INFO - Evaluating bbox...
-2023-06-02 10:22:11,368 - mmdet - INFO -
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.245
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.501
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.212
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.222
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.354
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.220
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.404
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.404
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.404
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.366
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.466
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.321
+
 
 * base:
 
-2023-06-01 23:41:48,026 - mmdet - INFO - Evaluating bbox...
-2023-06-01 23:41:49,037 - mmdet - INFO -
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.386
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.670
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.400
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.277
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.540
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.404
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.461
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.461
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.461
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.361
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.612
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.490
+
 
 * large:
 
-2023-06-01 20:00:27,935 - mmdet - INFO - Evaluating bbox...
-2023-06-01 20:00:29,051 - mmdet - INFO -
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.424
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.719
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.450
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.324
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.571
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.447
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.509
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.509
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.509
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.416
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.649
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.544
+
 
 4. save the model and make a prediction
 Perpare a test_samples folder, which have test images and negative images in this folder. And we need a txt file to get all a name list of all the images'names.
