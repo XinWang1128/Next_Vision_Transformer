@@ -76,7 +76,7 @@ Perpare a test_samples folder, which have test images and negative images in thi
 Use the prediction.py to make a prediction with the above images.
 The comparations between the different sizes of Next-ViT
 
-![Picture](Comparation between different sizes of models.PNG)
+![Picture](Comparation_results.PNG)
 
 
 # To do
