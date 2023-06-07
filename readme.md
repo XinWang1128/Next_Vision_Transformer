@@ -54,7 +54,7 @@ $ PORT=29501 bash dist_train.sh configs/mask_rcnn_nextvit_large_1x.py 1
 
 2. Split the training samples into training data and validation data
 
-.jpg
+![Picture](Data_splitting.PNG)
 
 3. Fit the training samples to our 3 inter-structures Next-ViT(small,base,large)
 There are a comparation between these training results:
