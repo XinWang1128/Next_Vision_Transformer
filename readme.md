@@ -78,7 +78,9 @@ The comparations between the different sizes of Next-ViT
 
 ![Picture](Comparation_results.PNG)
 
+And another final visualisation in stuttgart:
 
+![Picture](Final_result.jpg)
 
 5. calculate the confusion matrix
 There are acutually 3 sizes of the the model, after comparing the Large size works at the best. Thus, in this section, we calculate the confusion matrix based on these large model with different thresholds.
