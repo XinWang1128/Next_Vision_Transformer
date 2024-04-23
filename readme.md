@@ -79,12 +79,13 @@ The comparations between the different sizes of Next-ViT
 ![Picture](Comparation_results.PNG)
 
 
-# To do
 
-1.  calculate the accuracy binary classification by ourself, to make a confusion matirx(recall, prediction, recall)
+5. calculate the confusion matrix
+There are acutually 3 sizes of the the model, after comparing the Large size works at the best. Thus, in this section, we calculate the confusion matrix based on these large model with different thresholds.
+The test area located in the stuttgart and the surrounding areas.
 
 
-
+![Picture](confusion_matrix.JPG)
 
 
 
