@@ -19,7 +19,12 @@
 
 
 $ ohsome2label --config  C:\Users\24634\PycharmProjects\pythonProject\ohsome2label\config\config.yaml vector
+
+
+
 II: change the .geojson file
+
+
 $ ohsome2label label
 $ ohsome2label image
 $ ohsome2label visualize -n 10
